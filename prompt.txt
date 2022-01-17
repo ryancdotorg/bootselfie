@@ -1,0 +1,8 @@
+We hope you're enjoying the PancakesCon 3 CTF! You were looking for a flag?
+This floppy has one! Hold on, we're getting a phone call...
+
+Ugh, the 90's called and asked for their stuff back.
+
+Where were we? Oh, yes! The challenge!
+
+Enter password: 

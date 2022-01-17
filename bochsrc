@@ -1,0 +1,17 @@
+config_interface: textconfig
+display_library: sdl2
+#display_library: sdl2, options="gui_debug"
+#romimage: file=/usr/share/bochs/BIOS-bochs-legacy, address=0xf0000
+#romimage: file=/usr/share/bochs/BIOS-bochs-legacy, address=0xffff0000
+#romimage: file=/usr/share/bochs/BIOS-bochs-latest, address=0xe0000
+#romimage: file=/usr/share/bochs/BIOS-bochs-latest, address=0xfffe0000
+#romimage: file=/usr/share/bochs/BIOS-bochs-latest
+romimage: file=BIOS-bochs-latest
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+megs: 32
+floppya: 1_44=floppy.img, status=inserted
+boot: floppy
+log: bochs.log
+mouse: enabled=0
+cpu: ips=100000000
+magic_break: enabled=1
